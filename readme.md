@@ -1,6 +1,6 @@
 # ASP.NET Oracle Sample Project w/Web Service Functionality
 
-This project is a continuation of [this ASP.NET Core Application](https://github.com/Razat94/OracleSampleProject)
+This project is a continuation of [this ASP.NET Core Application](https://github.com/Razat94/OracleSampleProject).
 Please note that this application was written in classic ASP.NET, 
 and has a web service communicating with the front end of the website and an Oracle database.
 
