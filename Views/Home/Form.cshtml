@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Form Page";
+    ViewData["text"] = ViewBag.Message;
+}
+
+<script>
+    // Hide alert after 3 seconds
+    setTimeout(function () {
+        document.getElementById("alert").style.display = "none";
+    }, 3000);
+</script>
+
+<div class="text-center">
+    <h1 class="display-4">
+        Welcome
+    </h1>
+    <p>
+        Enter a name in the form below.
+        <br> Clicking "Submit" will invoke a stored procedure that will add the content to the Oracle database.
+    </p>
+</div>
+
+<main class="mt-1 pt-3">
+    <div class="container">
+        @using (Html.BeginForm())
+        {
+            <!-- Post Element -->
+            <div class="card mb-3 wow fadeIn">
+                <div class="card-header font-weight-bold">
+                    Add some content
+                </div>
+                <div class="card-body">
+                    <!-- Default form post -->
+                    <form asp-action="Form" asp-controller="Home">
+                        <!-- First Name -->
+                        <label for="replyFormName">
+                            First Name
+                        </label>
+                        <input type="text" name="FirstName" class="form-control">
+                        <br>
+
+                        <div class="text-center mt-4">
+
+                            <button onclick="hidealert" class="btn btn-info btn-md" value="Submit" type="submit">
+                                Post
+                            </button>
+                        </div>
+                        <!-- <input class="btn btn-primary" type="submit" value="submit" /> -->
+                        <!-- Submit Button -->
+
+                    </form>
+                    <!-- End of post form -->
+                    <!-- Show submission status -->
+                    @if (@ViewBag.Message == "Error: Don't submit an empty value.")
+                    {
+                        <p id="alert" class="alert alert-danger" style="margin-top: 1rem;">
+                            @ViewBag.Message
+                        </p>
+                    }
+                    else if (@ViewBag.Message == "Success: Value will be inserted into database")
+                    {
+                        <p id="alert" class="alert alert-success mt-1" style="margin-top: 1rem;">
+                            @ViewBag.Message
+                        </p>
+                    }
+                    else
+                    {
+                    }
+                </div>
+            </div>
+            <!-- End of entire Post element -->
+        }
+
+        <!--Card-->
+        <div class="card mb-4 wow fadeIn">
+            <!--Card content-->
+            <div class="card-body text-center">
+                <p class="h5 my-4">
+                    Note:
+                </p>
+                <p>
+                    Go back to the home page once you've submitted some content.
+                </p>
+                <hr>
+                <a class="btn btn-outline-primary" href= "/">
+                    Back to Home
+                    <i class="fas fa-arrow-right ml-1">
+                    </i>
+                </a>
+            </div>
+        </div>
+        <!-- End of Card -->
+    </div>
+</main>
