@@ -4,8 +4,8 @@
 
 First, let's create a ASP.NET MVC Web Application.
 <div align = "center">
-<img src = "images/1.jpg">
-<img src = "images/2.jpg">
+<img src = "images/1.png">
+<img src = "images/2.png">
 </div>
 
 After that step, the core project should now have been created.
