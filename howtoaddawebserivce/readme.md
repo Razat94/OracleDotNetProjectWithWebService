@@ -4,8 +4,8 @@
 
 First, let's create a ASP.NET MVC Web Application.
 <div align = "center">
-<img src = "images/1.png">
-<img src = "images/2.png">
+<img src = "images/1.PNG">
+<img src = "images/2.PNG">
 </div>
 
 After that step, the core project should now have been created.
@@ -18,7 +18,7 @@ Hover over your solution, right click on it, and then go Add -> New Item.
 
 Then, scroll down and add a web service
 <div align = "center">
-<img src = "images/4.jpg">
+<img src = "images/4.PNG">
 </div> 
 
 You have now added a web service. 
@@ -31,20 +31,20 @@ Let's integrate it with the application.
 We will need to publish the project.
 <div align = "center">
 <img src = "images/5.jpg">
-<img src = "images/6.jpg">
-<img src = "images/7.jpg">
+<img src = "images/6.PNG">
+<img src = "images/7.PNG">
 </div> 
 
 We now need to add a service reference.
 <div align = "center">
 <img src = "images/8.jpg">
-<img src = "images/9.jpg">
+<img src = "images/9.PNG">
 </div> 
 
 Lastly, double check that the System Web Services is enabled as a web service.
 To do this, look at image 8 (From References -> Add Reference -> System.Web.Services).
 <div align = "center">
-<img src = "images/10.jpg">
+<img src = "images/10.PNG">
 </div> 
 
 Once that last step is completed, you have successfully added a web service to the project.
