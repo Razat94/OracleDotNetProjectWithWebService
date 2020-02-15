@@ -13,3 +13,5 @@ and has a web service communicating with the front end of the website and an Ora
 - This project contains the Nuget Package "Oracle.ManagedDataAccess". You wouldn't need to install it again.
 - On my local machine, the webservice was found on the URL: "https://localhost:44393/WebService.asmx".
   The port number may be different on your local machine when you download it, but the web service page will still be the same.
+
+## Check out <a href = "./tree/master/howtoaddawebservice"> this readme </a> to learn how I was able to set up the web service.

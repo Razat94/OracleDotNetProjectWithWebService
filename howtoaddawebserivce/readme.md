@@ -1,15 +1,10 @@
 # How to add a web service.
 
-Web Services are covered [here](https://www.tutorialspoint.com/asp.net/asp.net_web_services.htm).
-
 [This video](https://www.youtube.com/watch?v=1VU8fyaHzO0) explained how to do it for me.
 
 First, let's create a ASP.NET MVC Web Application.
 <div align = "center">
 <img src = "images/1.jpg">
-</div>
-
-<div align = "center">
 <img src = "images/2.jpg">
 </div>
 
@@ -36,24 +31,15 @@ Let's integrate it with the application.
 We will need to publish the project.
 <div align = "center">
 <img src = "images/5.jpg">
-</div>
-
-<div align = "center">
 <img src = "images/6.jpg">
-</div>
-
-<div align = "center">
 <img src = "images/7.jpg">
-</div>
+</div> 
 
 We now need to add a service reference.
 <div align = "center">
 <img src = "images/8.jpg">
-</div> 
-
-<div align = "center">
 <img src = "images/9.jpg">
-</div>
+</div> 
 
 Lastly, double check that the System Web Services is enabled as a web service.
 To do this, look at image 8 (From References -> Add Reference -> System.Web.Services).
