@@ -1,6 +1,6 @@
 # How to add a web service.
 
-[This video](https://www.youtube.com/watch?v=1VU8fyaHzO0) explained how to do it for me.
+[This video](https://www.youtube.com/watch?v=1VU8fyaHzO0) did a good job at explaining how to add a web service.
 
 First, let's create a ASP.NET MVC Web Application.
 <div align = "center">

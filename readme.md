@@ -6,7 +6,7 @@ and has a web service communicating with the front end of the website and an Ora
 
 ## Requirements.
 - Deploy this application by opening up the solution 'OracleDotNetProjectwithWebService.sln' on Visual Studio and running it.
-- You will need to have access to an Oracle Database locally. The database must have a user "bms" with the password "abc".
+- You will need to have access to an Oracle database locally. The database must have a user "bms" with the password "abc".
 - The user "bms" must have an "Employees" table. 
   This project contains the DDL file that contains information on how to create the database with the "addFirstName" stored procedure. 
   Look for the DDL File "exportedDDL.sql" in the root directory.
@@ -14,4 +14,4 @@ and has a web service communicating with the front end of the website and an Ora
 - On my local machine, the webservice was found on the URL: "https://localhost:44393/WebService.asmx".
   The port number may be different on your local machine when you download it, but the web service page will still be the same.
 
-#### Check out <a href = "./howtoaddawebserivce"> this readme </a> to see how I was able to set up the web service.
+#### Check out <a href = "./howtoaddawebserivce">this readme</a> to see how I was able to set up the web service.
