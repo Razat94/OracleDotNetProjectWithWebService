@@ -62,7 +62,7 @@ namespace OracleDotNetProjectwithWebService
                 reader.Dispose();
                 con.Close();
             }
-        } // end of getSQLLIST method function
+        } // end of populateSQLLIST method function
 
         [WebMethod]
         public ArrayList getSQLList()
